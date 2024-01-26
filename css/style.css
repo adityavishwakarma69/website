@@ -33,6 +33,7 @@ body{
   color: #F8F8F2; 
   margin: 0.5em;
   border: 2px solid #FF79C6;
+  box-shadow: #FF79C6 0px 3px 8px;
 }
 .btn:hover h1, h2, h3, h4, h5, h6{
   color: #F8F8F8;
