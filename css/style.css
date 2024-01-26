@@ -1,0 +1,55 @@
+body{
+  background: #282A36;
+  color: #F8F8F2;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+#MainHeading{
+  scale: 1.3;
+  font-family: monospace;
+}
+
+.PFP{
+  border-radius: 100%;
+  border: 2px solid #BD93F9;
+  margin: 1em;
+  width: 7%;
+}
+.btn{
+  color: #F8F8F2;
+  background: #282A36;
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid #6272A4;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+.btn:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: #F8F8F2; 
+  margin: 0.5em;
+  border: 2px solid #FF79C6;
+}
+.btn:hover h1, h2, h3, h4, h5, h6{
+  color: #F8F8F8;
+}
+
+.btn:hover .PFP{
+  scale: 1.2;
+}
+.btn:hover p, li{
+  color: rgba(220, 220, 200, 0.9);
+}
+#VoidLogo{
+  width: 12%;
+}
+#Skills, #Info, #Linux{
+}
+#Skills ul{
+  text-align: left;
+  margin-left: 22%;
+}
