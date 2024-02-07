@@ -28,12 +28,13 @@ body{
   font-size: 1.5em;
   transition: 0.3s;
 }
-.btn:hover{
+.btn:hover, .btn:focus{
   background: rgba(0, 0, 0, 0.3);
   color: #F8F8F2; 
   margin: 0.5em;
   border: 2px solid #FF79C6;
-  box-shadow: #FF79C6 0px 3px 8px;
+  box-shadow: #FF79C6 0px 0px 30px;
+  animation: pulse 0.5s;
 }
 .btn:hover h1, h2, h3, h4, h5, h6{
   color: #F8F8F8;
@@ -45,8 +46,19 @@ body{
 .btn:hover p, li{
   color: rgba(220, 220, 200, 0.9);
 }
-#VoidLogo{
+#VoidLogoBg{
   width: 12%;
+  transition: 1s;
+  position: relative;
+  left: 100px;
+}
+#VoidLogoBg:hover{
+  rotate: 360deg;
+}
+#VoidLogoFg{
+  position: relative;
+  top: -50px;
+  left: -70px;
 }
 #Skills, #Info, #Linux{
 }
