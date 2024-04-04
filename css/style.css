@@ -50,15 +50,15 @@ body{
   width: 12%;
   transition: 2s;
   position: relative;
-  left: 100px;
+  left: 8%;
 }
-#VoidLogoBg:hover{
+#voidlogo:hover #VoidLogoBg{
   rotate: 360deg;
 }
 #VoidLogoFg{
   position: relative;
-  top: -55px;
-  left: -75px;
+  top: -47px;
+  left: -7.5%;
 }
 #Skills, #Info, #Linux{
 }
