@@ -48,7 +48,7 @@ body{
 }
 #VoidLogoBg{
   width: 12%;
-  transition: 1s;
+  transition: 2s;
   position: relative;
   left: 100px;
 }
@@ -57,8 +57,8 @@ body{
 }
 #VoidLogoFg{
   position: relative;
-  top: -50px;
-  left: -70px;
+  top: -55px;
+  left: -75px;
 }
 #Skills, #Info, #Linux{
 }
